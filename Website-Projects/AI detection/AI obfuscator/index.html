@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Simple Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>AI obfuscater</h1>
+		<div class="input-group">
+			<label for="input">Input:</label>
+			<input type="text" id="input" placeholder="Enter input...">
+		</div>
+		<div class="input-group">
+			<label for="length">Length:</label>
+			<input type="number" id="length" min="1" max="10" value="5">
+			<label for="min">Min:</label>
+			<input type="number" id="min" min="1" max="10" value="1">
+			<label for="max">Max:</label>
+			<input type="number" id="max" min="1" max="10" value="10">
+		</div>
+		<button class="btn" onclick="createOutput()">Generate Output</button>
+		<div class="output">
+			<p id="output"></p>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
