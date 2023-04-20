@@ -12,9 +12,18 @@ Below are live links to my projects through the IDE, Codehs. The link to the rig
 
 ---
 
-<b><u>AI Related</u></b>
+<b><u>Websites with UI</u></b>
 
 - [[ AI Obfuscator ]](https://codehs.com/sandbox/c14o9fe358/new-sandbox-program-105/run)  ➢  [Website-Projects/AI detection/AI obfuscator/](https://github.com/Dima49131/All-Coding-Projects/tree/main/Website-Projects/AI%20detection/AI%20obfuscator)
 
-- [[ AI Detector for non-english characters ]](https://codehs.com/sandbox/c14o9fe358/ai-obfuscation-detector/run)  ➢ [Website-Projects/AI detection/Detector/](https://github.com/Dima49131/All-Coding-Projects/tree/main/Website-Projects/AI%20detection/Detector)
+- [[ AI Obfuscation Detector  ]](https://codehs.com/sandbox/c14o9fe358/ai-obfuscation-detector/run)  ➢ [Website-Projects/AI detection/Detector/](https://github.com/Dima49131/All-Coding-Projects/tree/main/Website-Projects/AI%20detection/Detector)
+
+- [[ A1Z26 Cipher ]](https://codehs.com/sandbox/c14o9fe358/a1z26-cipher-website/run) ➢ [Website-Projects/Ciphers/A1Z26 Cipher/](https://github.com/Dima49131/All-Coding-Projects/tree/main/Website-Projects/Ciphers/A1Z26%20Cipher)
+
+- [[A1Z26 Cipher Graph]](https://codehs.com/sandbox/c14o9fe358/a1z26-cipher-graph-v2/run) ➢ [/Website-Projects/Ciphers/A1Z26 Cipher Graph/](https://github.com/Dima49131/All-Coding-Projects/tree/main/Website-Projects/Ciphers/A1Z26%20Cipher%20Graph)
+
+- [[ Rhyme Some words ]](https://codehs.com/sandbox/c14o9fe358/program-that-does-stuff/run) ➢ [Website-Projects/Rhyming type/Rhyme Game/](https://github.com/Dima49131/All-Coding-Projects/tree/main/Website-Projects/Rhyming%20type/Rhyme%20Game)
+
+
+
 ---
