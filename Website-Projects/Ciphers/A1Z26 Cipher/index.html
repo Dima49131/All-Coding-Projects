@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Input to Number Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <div class="input-box">
+      <label for="input-text">Enter text:</label>
+        <input type="text" id="input-text">
+            <button onclick="convertInput()">Convert</button>
+            <button onclick="copyText('output-text')">Copy</button>
+            <button onclick="pasteText1('input-text','output-text')">Layer</button>
+            <button onclick="clearInput()">Clear</button>
+
+    </div>
+    
+    <div class="output-box">
+      <label for="output-text">Output:</label>
+      <textarea id="output-text" readonly></textarea>
+    </div>
+    
+    <div class="input-box2">
+      <label for="input-text2">Enter ciphered text:</label>
+        <input type="text" id="input-text2">
+            <button onclick="convertOutput()">Convert</button>
+            <button onclick="copyText('input-text2')">Copy</button>
+            <button onclick="pasteText2('input-text2','output-text2')">layer back</button>
+            <button onclick="clearOutput()">Clear</button>
+
+    </div>
+    
+    <div class="output-box2">
+      <label for="output-text2">Output:</label>
+      <textarea id="output-text2" readonly></textarea>
+    </div>
+    
+    <script src="script.js"></script>
+  
+  </body>
+</html>
+
+    <!--
+    // note 2/19/23 - prob around 10:00 pm
+    The paste function that I wanted to include
+    is blocked by DOMException permision policy
+    I'm not sure how to handle that besides using
+    local data in output and set the input text to the same
+    
+    // note 2/19/23 - 12:04 - changed paste into Layer feature
+    doesn't fully work because of the convertion with numbers not
+    being able to be layered back, otherwise, a fine work around.
+    
+    The layers break after the second time completly, the first
+    is minor breaks
+    -->
