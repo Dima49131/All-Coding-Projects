@@ -1,0 +1,37 @@
+html, body {
+  height: 1200px;
+}
+
+
+.input-box,
+.input-box2,
+.output-box,
+.output-box2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.input-box label,
+.input-box2 label,
+.output-box label,
+.output-box2 label {
+  margin-right: 1em;
+  font-weight: normal;
+}
+
+.input-box input[type=text],
+.input-box2 input[type=text],
+.output-box textarea,
+.output-box2 textarea {
+  flex-grow: 1;
+  margin-right: 1em;
+}
+
+.input-box button,
+.input-box2 button,
+.output-box button,
+.output-box2 button {
+  margin-right: 1em;
+}
