@@ -55,3 +55,22 @@ function clearOutput() {
   document.getElementById('output-text2').value = '';
   document.getElementById('input-text2').value = '';
 }
+
+
+
+function copyText(outputId) {
+  const outputBox = document.getElementById(outputId);
+  outputBox.select();
+  document.execCommand("copy");
+  
+}
+
+function pasteText1(className1,className2) {
+  document.getElementById(className1).value = document.getElementById(className2).value;
+    convertInput();
+}
+
+function pasteText2(className1,className2) {
+  document.getElementById(className1).value = document.getElementById(className2).value;
+    convertOutput();
+}
